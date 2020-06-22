@@ -1,5 +1,16 @@
 ## Netflix Zuul Api Gateway
 
+## Running
+##### Previosly should run instance
+- netflix-eureka-naming-server
+- netflix-zuul-api-gateway-server
+###### Then should run instance
+- pelican
+- estonia
+- belgium
+- lithuania
+---
+
 ###### Eureka 
 http://localhost:8761/
 
