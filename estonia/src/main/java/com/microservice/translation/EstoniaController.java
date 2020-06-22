@@ -13,8 +13,8 @@ public class EstoniaController {
 
     @GetMapping("/translation/{word}")
     public TranslationResponse retrieveWordValue(@PathVariable String word) {
-        Translation exchangeValue = repository.findByWord(word);
+        Translation translation = repository.findByWord(word);
 
-        return new TranslationResponse(exchangeValue.getTranslate().toLowerCase());
+        return new TranslationResponse(translation.getTranslate().toLowerCase());
     }
 }
